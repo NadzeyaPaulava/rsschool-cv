@@ -9,3 +9,21 @@
 > **phone:** +375(29)8512170
 >
 > **Linked-In:** [Nadzeya Paulava](https://www.linkedin.com/in/nadzeya-paulava-745b4b93/)
+
+## *Summary*
+Have a 6 year experience in the functional testing of web services and web application, test cases creation/review, reporting, creation of automated tests for web services
+using custom framework based on XML. Worked as a team lead and have a great experience in international team coordination. Currently I’m looking for a new experience in the Java Script development.
+
+## Skills
+
+Skills | Level
+---------|------
+Functional testing | Advanced
+Scrum | Advanced
+Jira | Advanced
+Test Automation | Medium
+MySQL | Medium
+HTML | Novice
+CSS | Novice
+JavaScript | Novice
+
