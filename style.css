@@ -1,0 +1,146 @@
+@import "reset.css";
+
+/*--------------Fonts starts----------------*/
+
+@font-face {
+    font-family: 'Titillium Web';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Titillium Web Bold'), local('TitilliumWeb-Bold'), url(https://fonts.gstatic.com/s/titilliumweb/v7/NaPDcZTIAOhVxoMyOr9n_E7ffHjDGItzYw.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+    font-family: 'Titillium Web';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Titillium Web Light'), local('TitilliumWeb-Light'), url(https://fonts.gstatic.com/s/titilliumweb/v7/NaPDcZTIAOhVxoMyOr9n_E7ffGjEGItzYw.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+    font-family: 'Alegreya Sans';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Alegreya Sans Light'), local('AlegreyaSans-Light'), url(https://fonts.gstatic.com/s/alegreyasans/v9/5aUu9_-1phKLFgshYDvh6Vwt5fFPqEp2iw.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+    font-family: 'Alegreya Sans';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Alegreya Sans Bold'), local('AlegreyaSans-Bold'), url(https://fonts.gstatic.com/s/alegreyasans/v9/5aUu9_-1phKLFgshYDvh6Vwt5eFIqEp2iw.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+
+/*--------------Fonts ends----------------*/
+
+body {
+    font-family: 'Alegreya Sans', Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    line-height: 150%;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1024px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+
+/*------------Headers and paragraphs---------------*/
+
+h1 {
+    font-family: 'Titillium Web', Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    margin: 20px auto;
+    color: dimgray;
+}
+
+h2 {
+    font-family: 'Titillium Web', Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    margin: 10px 0;
+    color: dimgray;
+}
+
+h3 {
+    font-family: 'Alegreya Sans', Helvetica, Arial, sans-serif;
+    font-weight: inherit;
+    font-size: 19px;
+    margin: 7px 0;
+    color: dimgray;
+}
+
+h4 {
+    font-family: 'Titillium Web', Helvetica, Arial, sans-serif;
+    font-weight: lighter;
+    font-size: 15px;
+    margin: 5px 0;
+    color: darkgrey;
+}
+
+p {
+    text-align: justify;
+}
+
+
+/*-------------Contact Info------------*/
+
+.contact-info {
+    display: flex;
+    justify-content: left;
+}
+
+.photo-box {
+    margin-right: 30px;
+}
+
+.photo-box img {
+    object-fit: cover;
+    object-position: 50% 20%;
+    width: 250px;
+    height: 300px;
+    border-radius: 25px;
+}
+
+.contact-info,
+.summary,
+.skills,
+.education,
+.languages {
+    width: 1024px;
+}
+
+
+/*---------Skills----------*/
+
+.skills table,
+.skills td {
+    border: solid gray 1px;
+    padding: 5px;
+}
+
+.skills thead {
+    background-color: dimgray;
+    color: white;
+}
+
+.skills tr:nth-child(even) {
+    background-color: lightgrey;
+}
+
+
+/*---------------Languages----------------*/
+
+ul {
+    list-style-type: circle;
+}
